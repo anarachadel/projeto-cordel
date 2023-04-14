@@ -16,7 +16,7 @@
 }
 
 html, body {
-    min-height: 97vh;
+    min-height: 100vh;
     background-color: darkgrey;
     font-family: var(--fonte1);
 }
@@ -31,7 +31,7 @@ header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--fonte2);
-    font-size: 4em;
+    font-size: 10vw;
 }
 
 header > p {
@@ -54,7 +54,7 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 1.5em;
+    font-size: 3.5vw;
 }
 
 section > p {
@@ -68,7 +68,6 @@ section.normal {
 }
 
 section.imagem {
-    min-height: 97vh;
     background-color: white;
     color: #FF6B1A;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.445);
@@ -78,7 +77,8 @@ section.imagem {
 }
 
 section.imagem > p {
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.18);   
 }
 
