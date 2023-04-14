@@ -16,7 +16,7 @@
 }
 
 html, body {
-    min-height: 150px;
+    min-height: 97vh;
     background-color: darkgrey;
     font-family: var(--fonte1);
 }
@@ -68,6 +68,7 @@ section.normal {
 }
 
 section.imagem {
+    min-height: 97vh;
     background-color: white;
     color: #FF6B1A;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.445);
